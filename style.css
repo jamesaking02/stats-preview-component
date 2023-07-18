@@ -16,7 +16,7 @@
 
 img,
 picture {
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
@@ -128,5 +128,9 @@ span {
     .card__content {
         padding-inline: 5rem;
         padding-block-start: 5rem;
+    }
+
+    .card__content--container {
+        gap: 4rem;
     }
 }
