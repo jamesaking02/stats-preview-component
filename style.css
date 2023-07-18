@@ -17,9 +17,6 @@
 img,
 picture {
     max-width: 100%;
-    object-fit: cover;
-    width: 100%;
-    max-height: 100%;
     display: block;
 }
 
@@ -116,18 +113,13 @@ span {
     .card__img {
         grid-area: image;
         object-fit: cover;
-        /* width: 100%; */
-        /* max-height: 100%; */
+        width: 100%;
+        min-height: 100%;
     }
 
     .card__content--container {
         display: flex;
         gap: 1rem;
-    }
-
-    .card__content--stat {
-        
-
     }
 }
 
